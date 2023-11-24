@@ -1,0 +1,27 @@
+:root {
+    --color-primary: #040440;
+    --color-black: #121212;
+    --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif !important;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.MuiPaper-root {
+    background-color: white !important;
+    color: black !important;
+}

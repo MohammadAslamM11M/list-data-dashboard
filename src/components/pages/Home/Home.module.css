@@ -1,0 +1,10 @@
+.dashboard {
+    background-color: var(--color-white);
+    width: 80vw;
+}
+
+@media (max-width: 500px) {
+    .dashboard {
+        width: 100vw;
+    }
+}
